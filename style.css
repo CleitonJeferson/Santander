@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    letter-spacing: -0.02em;
+    font-family: "SantanderMicroText", sans-serif;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-santander img{
+    width: 188px;
+    padding: 10px;
+    height: auto;
+    margin-top: 2px;
+}
+
+.nav-top{
+    border-bottom: 4px solid #ddd;
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+
+.nav-top ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: -52px 0 0 203px;
+    color: #222222;;
+}
+
+.nav-top ul li b{
+    color: red;
+}
+
+.nav-baixo ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-baixo ul li{
+    margin-left: 30px;
+}
+
+.nav-baixo{
+    background: rgb(208,47,47);
+    background: linear-gradient(90deg, rgba(208,47,47,1) 0%, rgba(255,0,0,0.9612219887955182) 100%);
+    padding: 5px;
+    color: white;
+}
+.slider {
+    width: 103%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.slider-box {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.galeria-img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.galeria-img img {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.manual-navegacao {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.manual-btn {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manual-btn:hover {
+    background-color: red;
+}
+
+#radio1:checked ~ .slider-box {
+    transform: translateX(0);
+}
+#radio2:checked ~ .slider-box {
+    transform: translateX(-100%);
+}
+#radio3:checked ~ .slider-box {
+    transform: translateX(-200%);
+}
