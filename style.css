@@ -6,8 +6,8 @@
 
 body{
     letter-spacing: -0.02em;
-    font-family: "SantanderMicroText", sans-serif;
-
+    font-family: "SantanderHeadlineRegular", sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 }
 
 .img-santander img{
-    width: 188px;
+    width: 176px;
     padding: 10px;
     height: auto;
     margin-top: 2px;
@@ -37,7 +37,7 @@ header{
     display: flex;
     list-style: none;
     gap: 50px;
-    margin: -52px 0 0 203px;
+    margin: -45px 0 0 203px;
     color: #222222;;
 }
 
@@ -54,7 +54,7 @@ header{
 }
 
 .nav-baixo ul li{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .nav-baixo{
@@ -62,10 +62,14 @@ header{
     background: linear-gradient(90deg, rgba(208,47,47,1) 0%, rgba(255,0,0,0.9612219887955182) 100%);
     padding: 5px;
     color: white;
+    font-size: 1em;
 }
+
+
 .slider {
-    width: 103%;
-    height: 450px;
+    display: flex;
+    width: 100%;
+    height: 420px;
     overflow: hidden;
     position: relative;
 }
@@ -79,7 +83,8 @@ header{
 .slider-box {
     display: flex;
     width: 100%;
-    transition: transform 0.5s ease-in-out;
+    height: auto;
+    transition: transform 1s ease-in-out;
 }
 
 .galeria-img {
@@ -89,7 +94,7 @@ header{
 }
 
 .galeria-img img {
-    width: 35%;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -129,3 +134,242 @@ input[type="radio"] {
 #radio3:checked ~ .slider-box {
     transform: translateX(-200%);
 }
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+h3{
+    text-align: left;
+    margin: 46px 0 0 140px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.roleta-servicos{
+    margin-left: 140px;
+    margin-top: 13px;
+    display: flex;
+    width: 79%;
+    overflow: auto;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+}
+
+.roleta-servicos::-webkit-scrollbar{
+    width: 0;
+    cursor: grab;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+}
+
+.ul-servicos {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0;
+    gap: 15px;
+}
+
+.li-servicos{
+    background-color: white;
+    box-shadow: 0 2px 7px rgba(136, 135, 135, 0.658);
+    display: flex;
+    width: 165px;
+    height: 123px;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .1s ease-in-out;
+}
+
+.li-servicos:hover{
+    transform: scale(1.02);
+}
+
+.li-servicos p{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.servico-img {
+    width: 30px;
+    height: auto;
+    filter: invert(34%) sepia(97%) saturate(7101%) hue-rotate(360deg) brightness(99%) contrast(92%);
+    margin-top: 30px;
+}
+
+.dia-a-dia{
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.para-voce{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.div-dia img{
+    width: 575px;
+    height: 380px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.suas-duvidas{
+    width: 100%;
+    height: auto;
+    font-size: 0.9em;
+    margin-top: -330px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.suas-duvidas p{
+    margin-left: 45px;
+}
+
+.duvidas a, .renda a, .saiba-mais a{
+    color: white;
+    text-decoration: none;
+}
+
+.renda{
+    margin-left: 45px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+.saiba-mais{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.inscreva-se{
+    width: 100%;
+    height: auto;
+    margin-top: -320px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.excel{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.duvidass{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.agora{
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.excel a, .duvidass a, .agora a{
+    color: white;
+    text-decoration: none;
+}
+
+section .facilite{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-facilite{
+    margin-top: 200px;
+}
+
+.forum{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.atendimento{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 68px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.autoatendimento{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 68px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: calc(33.33% - 15px);
+    min-width: 250px;
+    color: #222;
+    transition: 0.3s;
+    text-align: left;
+    gap: 10px;
+    position: relative;
+}
+
+.autoatendimento .p-atendimento{
+    font-size: 1em;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.autoatendimento .img-atendemento{
+    filter: invert(34%) sepia(97%) saturate(7101%) hue-rotate(360deg) brightness(99%) contrast(92%);
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.autoatendimento:hover{
+    background-color: rgba(28, 28, 78, 0.288);
+}
+
+.duvida{
+    text-align: left;
+    margin: 0 0 0 140px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.duvida a{
+    color: red;
+}
+
+
+
+
+
