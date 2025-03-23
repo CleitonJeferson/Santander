@@ -14,13 +14,23 @@ function nextImage() {
 }
 
 
-// agora sera a parte dos serviços
+//parte de noticias
 
-let currentIndex = 0;
-const itemsPerPage = 3; // Quantos itens você quer mostrar de cada vez
-const ul = document.getElementById('ul-servicos');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
+var radio = document.querySelector('.manual-btn-novidades')
+var cont = 1
 
-// euj9ru9rew
+document.getElementById('radiobtn1').checked = true
 
+setInterval(() => {
+    proximaImg()
+}, 5000)
+
+function proximaImg(){
+    cont++
+
+    if(cont > 3){
+        cont = 1
+    }
+
+    document.getElementById('radiobtn'+cont).checked = true
+}
