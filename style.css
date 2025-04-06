@@ -632,10 +632,19 @@ input[type="radio"]{
     text-decoration: none;
 }
 
-.grupo-novidades {
+.grupo-novidades{
     display: flex;
     width: 80%;
     gap: 20px;
+}
+
+.grupo-novidades img{
+    border-radius: 15px;
+    transition: filter 0.3s ease;
+}
+  
+.article-novidades:hover{
+    filter: brightness(0.5);
 }
 
 .grupo-dois{
