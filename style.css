@@ -603,7 +603,7 @@ input[type="radio"]{
     justify-content: center;
 }
 
-.novidades-santander {
+.novidades-santander{
     width: 100%;
     height: auto;
     margin-top: 300px;
@@ -612,7 +612,7 @@ input[type="radio"]{
     align-items: center;
 }
 
-.ul-novidades-santander {
+.ul-novidades-santander{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -651,12 +651,56 @@ input[type="radio"]{
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 20px;
+    gap: 96px;
 }
 
-.grupo-direita{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    gap: 20px;
+.grupo-dois p{
+    margin-top: -125px;
+    margin-left: 30px;
+    font-size: 1.1em;
+    color: white;
 }
+
+.p-grpum{
+    margin-top: -235px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.canais{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.nossos-canais{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+}
+
+.li-nossos-canais b{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.li-nossos-canais a{
+    color: red;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.voce-consegue{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    color: #222;
+}
+
+
