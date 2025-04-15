@@ -155,7 +155,7 @@ h3{
 }
 
 .roleta-servicos{
-    margin-left: 140px;
+    margin-left: 145px;
     margin-top: 13px;
     display: flex;
     width: 79%;
@@ -438,7 +438,7 @@ h4{
     color: #222;
 }
 
-button {
+.botao-empresa{
     margin-top: 15px;
     padding: 20px 60px;
     background-color: red;
@@ -450,7 +450,7 @@ button {
 
 .slider2{
     margin: 85px auto;
-    width: 79%;
+    width: 78.5%;
     height: auto;
     padding: 0 !important;
     justify-content: center;
@@ -468,7 +468,7 @@ input[type="radio"]{
 }
 
 .ul-novidades{
-    width: 302.5%;
+    width: 304.5%;
     height: auto;
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -519,3 +519,188 @@ input[type="radio"]{
 #radiobtn3:checked ~ .novidades .ul-novidades {
     transform: translateX(-66.66%);
 }
+
+.produtos {
+    text-align: center;
+    background-color: #b90000;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produtos h2{
+    width: 100%;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 46px 0 0 140px;
+}
+
+.produtos1 {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.247);
+    padding: 20px;
+    width: 355px;
+    height: 425px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.div-img-produtos{
+    border-bottom: 1px solid #222;
+}
+
+.div-img-produtos1{
+    width: 100%;
+    border-bottom: 1px solid #222;
+}
+
+.div-img-produtos1 .img-produtos1{
+    width: 150px;
+}
+
+.produtos1 img {
+    width: 115px;
+    margin-bottom: -2px;
+    margin-left: 30px;
+}
+
+.name-produtos{
+    margin-top: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #222;
+}
+
+.ul-produtos {
+    padding: 25px;
+}
+
+.li-produtos {
+    font-size: 15.7px;
+    margin-top: 15px;
+}
+
+.botao-produtos{
+    margin-top: auto;
+    padding: 20px 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.novidades-santander{
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-novidades-santander{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.li-novidades-santander b {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.li-novidades-santander a {
+    color: red;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.grupo-novidades{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+}
+
+.grupo-novidades img{
+    border-radius: 15px;
+    transition: filter 0.3s ease;
+}
+  
+.article-novidades:hover{
+    filter: brightness(0.5);
+}
+
+.grupo-dois{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 96px;
+}
+
+.grupo-dois p{
+    margin-top: -125px;
+    margin-left: 30px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.p-grpum{
+    margin-top: -235px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.canais{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.nossos-canais{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+}
+
+.li-nossos-canais b{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.li-nossos-canais a{
+    color: red;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.voce-consegue{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    color: #222;
+}
+
+
